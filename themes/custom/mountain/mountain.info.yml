@@ -5,3 +5,9 @@ core: 8.x
 libraries:
   - mountain/global-css
   - mountain/global-js
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
