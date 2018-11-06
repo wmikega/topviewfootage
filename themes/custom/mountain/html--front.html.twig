@@ -1,14 +1,18 @@
-<head class="main-header" role="banner">
-    <div class="container">
-        {{ page.header }}
+<div class="layout-container">
 
-        <div class="main-navigation">
-            {{ page.main_navigation }}
-        </div>
-    </div>
-</head>
+  <header role="banner">
+    {{ page.header }}
+  </header>
 
-<div class="container">
+  {{ page.primary_menu }}
+  {{ page.secondary_menu }}
+
+  {{ page.breadcrumb }}
+
+  {{ page.highlighted }}
+
+  {{ page.help }}
+
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
@@ -16,9 +20,15 @@
       {{ page.content }}
     </div>{# /.layout-content #}
 
-    {% if page.sidebar %}
+    {% if page.sidebar_first %}
       <aside class="layout-sidebar-first" role="complementary">
-        {{ page.sidebar }}
+        {{ page.sidebar_first }}
+      </aside>
+    {% endif %}
+
+    {% if page.sidebar_second %}
+      <aside class="layout-sidebar-second" role="complementary">
+        {{ page.sidebar_second }}
       </aside>
     {% endif %}
 
