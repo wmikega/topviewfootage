@@ -1,17 +1,16 @@
+<header class="main-header" role="banner">
+    <div class="container">
+        {{ page.header }}
+
+        <div class="main-navigation">
+            {{ page.main_navigation }}
+        </div>
+    </div>
+</header>
+
 <div class="container">
-
-  <header role="banner">
-    {{ page.header }}
-  </header>
-
   {{ page.primary_menu }}
-  {{ page.secondary_menu }}
 
-  {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
-
-  {{ page.help }}
 
   <main role="main">
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
