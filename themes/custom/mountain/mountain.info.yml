@@ -1,4 +1,7 @@
 name: Mountain
-description: Drupal Mountain Theme
+description: Drupal 8 Mountain Theme
 type: theme
 core: 8.x
+libraries:
+  - mountain/global-css
+  - mountain/global-js
