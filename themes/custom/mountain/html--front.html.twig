@@ -1,15 +1,6 @@
 
-  <head>
-
+  <head class="main-header" role="banner">
     <css-placeholder token="{{ placeholder_token|raw }}">
-  </head>
-  <body{{ attributes }}>
-    {{ page_top }}
-    {{ page }}
-    {{ page_bottom }}
-
-
-<header class="main-header" role="banner">
     <div class="container">
         {{ page.header }}
 
@@ -17,7 +8,14 @@
             {{ page.main_navigation }}
         </div>
     </div>
-</header>
+  </head>
+  <body{{ attributes }}>
+    {{ page_top }}
+    {{ page }}
+    {{ page_bottom }}
+
+
+
 
 <div class="container">
   <main role="main">
