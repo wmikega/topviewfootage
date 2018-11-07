@@ -7,7 +7,7 @@ class ArticleController {
     public function page() {
 
         $items = array (
-            array('name' => 'https://www.youtube.com/watch?v=GPJ8-xQWDks'),
+            array('name' => 'Video One'),
             array('name' => 'Video two'),
             array('name' => 'Video three'),
             array('name' => 'Video four'),

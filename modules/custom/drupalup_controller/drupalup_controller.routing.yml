@@ -2,6 +2,6 @@ drupalup_controller.article_list:
   path: '/drupalup/videos'
   defaults:
     _controller: '\Drupal\drupalup_controller\Controller\ArticleController::page'
-    _title: 'Custom Article list'
+    _title: 'Custom Video list'
   requirements:
     _permission: 'access content'
