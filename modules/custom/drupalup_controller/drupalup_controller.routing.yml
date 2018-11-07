@@ -1,5 +1,5 @@
 drupalup_controller.article_list:
-  path: '/drupalup/articles'
+  path: '/drupalup/videos'
   defaults:
     _controller: '\Drupal\drupalup_controller\Controller\ArticleController::page'
     _title: 'Custom Article list'

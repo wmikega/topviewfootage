@@ -7,16 +7,16 @@ class ArticleController {
     public function page() {
 
         $items = array (
-            array('name' => 'Article one'),
-            array('name' => 'Article two'),
-            array('name' => 'Article three'),
-            array('name' => 'Article four'),
+            array('name' => 'Video one'),
+            array('name' => 'Video two'),
+            array('name' => 'Video three'),
+            array('name' => 'Video four'),
         );
         
         return array(
             '#theme' => 'article_list',
             '#items' => $items,
-            '#title' => 'Our article list'
+            '#title' => 'Video list'
         );
     }
 }
